@@ -1,0 +1,40 @@
+.table-background {
+  background-color: gray;
+  min-height: 100vh;
+}
+
+.text-form {
+  color: black;
+  font-weight: 500;
+}
+
+.bg-modal .modal-content {
+  background-color: grey;
+}
+
+/* handphone landscape position required  */
+@media only screen and (max-width : 767px){
+  #width-table .table {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width : 500px){
+  #hp-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 500px){
+  #hp-text {
+    color: white;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width : 767px){
+  #edit-btn, #delete-btn {
+    font-size: 12px;
+  }
+}
+
